@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/cecilia.avilag/ontologies/2019/4/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/cecilia.avilag/ontologies/2019/4/untitled-ontology-2">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Accion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alegria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cognitivas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Competencias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comunicativas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confianza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConocimientoDeAutoridades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conocimientos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Convivencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CuidadoAmbiental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DerechosFundamentales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emocionales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Empatia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engaño"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Escucha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expresion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gestos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HabitosSaludables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Integradoras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManejoConflictos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediacionDeConflictos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NormasDeConvivencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NormasDeTransito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opiniones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Otras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Palabras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Participacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perdon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pluralidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positiva"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preocupacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rabia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Respeto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TecnicasDeMediacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tipos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tristeza"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prueba"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Alegria"/>
+        <Class IRI="#Basicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arte"/>
+        <Class IRI="#Expresion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basicas"/>
+        <Class IRI="#Emocionales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cognitivas"/>
+        <Class IRI="#Tipos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comunicativas"/>
+        <Class IRI="#Tipos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confianza"/>
+        <Class IRI="#Integradoras"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConocimientoDeAutoridades"/>
+        <Class IRI="#Cognitivas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conocimientos"/>
+        <Class IRI="#Tipos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Convivencia"/>
+        <Class IRI="#Competencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CuidadoAmbiental"/>
+        <Class IRI="#Integradoras"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DerechosFundamentales"/>
+        <Class IRI="#Conocimientos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emocionales"/>
+        <Class IRI="#Tipos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empatia"/>
+        <Class IRI="#Otras"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Engaño"/>
+        <Class IRI="#Integradoras"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Escucha"/>
+        <Class IRI="#Cognitivas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gestos"/>
+        <Class IRI="#Expresion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HabitosSaludables"/>
+        <Class IRI="#Integradoras"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Integradoras"/>
+        <Class IRI="#Tipos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManejoConflictos"/>
+        <Class IRI="#Integradoras"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediacionDeConflictos"/>
+        <Class IRI="#Integradoras"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negativa"/>
+        <Class IRI="#Accion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NormasDeConvivencia"/>
+        <Class IRI="#Conocimientos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NormasDeTransito"/>
+        <Class IRI="#Conocimientos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Opiniones"/>
+        <Class IRI="#Comunicativas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Otras"/>
+        <Class IRI="#Emocionales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Palabras"/>
+        <Class IRI="#Expresion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Participacion"/>
+        <Class IRI="#Competencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perdon"/>
+        <Class IRI="#Expresion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pluralidad"/>
+        <Class IRI="#Competencias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positiva"/>
+        <Class IRI="#Accion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Preocupacion"/>
+        <Class IRI="#Otras"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rabia"/>
+        <Class IRI="#Basicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Respeto"/>
+        <Class IRI="#Integradoras"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TecnicasDeMediacion"/>
+        <Class IRI="#Conocimientos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temor"/>
+        <Class IRI="#Basicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tristeza"/>
+        <Class IRI="#Basicas"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-08-10T07:24:44Z) https://github.com/owlcs/owlapi -->
+
